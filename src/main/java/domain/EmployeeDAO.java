@@ -18,6 +18,10 @@ public class EmployeeDAO {
     public List<Employee> generateEmployees(){
         employees = new ArrayList<Employee>();
         employees.add(emp1);
+        employees.add(emp2);
+        employees.add(emp3);
+        employees.add(emp4);
+        employees.add(emp5);
         return employees;
     }
 

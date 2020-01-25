@@ -20,6 +20,6 @@ public class App {
         Employee bob = new Employee("Bob", new Date(), 35000, true);
         ems.hireNewEmployee(bob);
 
-        // ems.modifyEmployeeName(5, "Ryan");
+        ems.modifyEmployeeName(6, "Ryan");
     }
 }
